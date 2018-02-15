@@ -1,0 +1,10 @@
+The inventory has 5 spaces. This number cannot increase nor decrease.
+
+It is advised that 3 spaces are reserved for weapons or abilites as more options in battles helps.
+More attacks to choose from in battles will give you the upper hand.
+
+The fourth and fifth are advised to be used for potions or any misc thing that might be added.
+It is advised that potions are only to be used when needed.
+Good potions are rare so don't use them often.
+
+The reason the fourth and fifth are allocated is because useful potions are rarer than good abilites.
