@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="TextBasedGame" />
+		<Option title="ConsoleWarriors" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -34,8 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Goblin.h" />
+		<Unit filename="include/Item.h" />
 		<Unit filename="include/NewCharacter.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Goblin.cpp" />
 		<Unit filename="src/NewCharacter.cpp" />
 		<Extensions>
 			<code_completion />

@@ -1,7 +1,9 @@
+#include "main.h"
 #include "NewCharacter.h"
 #include <iostream>
 using namespace std;
 #include <string>
+#include<windows.h>
 
 NewCharacter::NewCharacter()
 {
@@ -34,9 +36,10 @@ bool NewCharacter::createCharacter() {
 
     c_class = 0; // Reset to default
 
+    SetConsoleTextAttribute
+        (GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+
     cout << "Choose your class!" << endl;
-
-
     cout << "1. Mage: " << endl
             << "    Low Defence" << endl
             << "    High Speed" << endl
@@ -91,6 +94,9 @@ bool NewCharacter::createCharacter() {
         success == false;
         c_class = 0;
     }
+
+    SetConsoleTextAttribute
+        (GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE);
 
     return success;
 }

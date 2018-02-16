@@ -1,20 +1,40 @@
 # depslib dependency file v1.0
-1518677974 source:c:\users\zventer\documents\cppprojects\textbasedgame\main.cpp
+1518777624 source:c:\users\zventer\documents\cppprojects\textbasedgame\main.cpp
+	"main.h"
 	<iostream>
 	<string>
 	<stdlib.h>
+	<windows.h>
+	<vector>
 	<NewCharacter.h>
+	<Item.h>
+	<Goblin.h>
 
 1518650624 c:\users\zventer\documents\cppprojects\textbasedgame\include\newcharacter.h
 
-1518650811 source:c:\users\zventer\documents\cppprojects\textbasedgame\src\newcharacter.cpp
+1518776971 source:c:\users\zventer\documents\cppprojects\textbasedgame\src\newcharacter.cpp
+	"main.h"
 	"NewCharacter.h"
 	<iostream>
 	<string>
+	<windows.h>
 
-1518651376 c:\users\zventer\documents\cppprojects\textbasedgame\include\item.h
+1518699440 c:\users\zventer\documents\cppprojects\textbasedgame\include\item.h
 	<string>
 
-1518651256 source:c:\users\zventer\documents\cppprojects\textbasedgame\src\item.cpp
+1518681725 source:c:\users\zventer\documents\cppprojects\textbasedgame\src\item.cpp
 	"Item.h"
+
+1518777699 source:c:\users\zventer\documents\cppprojects\textbasedgame\src\goblin.cpp
+	"main.h"
+	"Goblin.h"
+	<iostream>
+	<stdlib.h>
+
+1518737813 c:\users\zventer\documents\cppprojects\textbasedgame\include\goblin.h
+
+1518777644 c:\users\zventer\documents\cppprojects\textbasedgame\include\main.h
+	<Item.h>
+	<NewCharacter.h>
+	<windows.h>
 
